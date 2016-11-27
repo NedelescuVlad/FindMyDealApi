@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5713732-c628-4539-935e-d52650e2838f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/client.rb" afterPath="$PROJECT_DIR$/app/models/client.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/basket.rb" afterPath="$PROJECT_DIR$/app/models/basket.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/item.rb" afterPath="$PROJECT_DIR$/app/models/item.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20161127020622_create_baskets.rb" afterPath="$PROJECT_DIR$/db/migrate/20161127020622_create_baskets.rb" />
     </list>
     <ignored path="FindMyDealApi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,16 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="store.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/store.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="application_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -53,16 +46,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="client.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/client.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="clients_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/clients_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,21 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application_record.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="basket.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/basket.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+            <state relative-caret-position="14">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -103,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="baskets_controller.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="baskets_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/baskets_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -113,11 +86,41 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="20161127015617_add_store_to_items.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20161127015617_add_store_to_items.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28">
+              <caret line="2" column="51" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20161127020622_create_baskets.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20161127020622_create_baskets.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20161127021557_add_items_to_baskets.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20161127021557_add_items_to_baskets.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="item.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/item.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+            <state relative-caret-position="28">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -143,11 +146,13 @@
         <option value="$PROJECT_DIR$/db/migrate/20161127013844_create_stocklines.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20161127014944_add_quantity_to_item.rb" />
         <option value="$PROJECT_DIR$/app/models/store.rb" />
-        <option value="$PROJECT_DIR$/app/models/item.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20161127015617_add_store_to_items.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/models/client.rb" />
+        <option value="$PROJECT_DIR$/app/models/item.rb" />
         <option value="$PROJECT_DIR$/app/models/basket.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20161127021557_add_items_to_baskets.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20161127020622_create_baskets.rb" />
       </list>
     </option>
   </component>
@@ -272,24 +277,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FindMyDealApi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FindMyDealApi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -370,12 +357,12 @@
       <updated>1480197330994</updated>
       <workItem from="1480197332292" duration="8020000" />
       <workItem from="1480206951423" duration="1620000" />
-      <workItem from="1480208665739" duration="3700000" />
+      <workItem from="1480208665739" duration="4051000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13340000" />
+    <option name="totallyTimeSpent" value="13691000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="17" width="1366" height="751" extended-state="0" />
@@ -417,22 +404,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/items_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20161126225111_create_clients.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/clients_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -699,14 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20161127015617_add_store_to_items.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
@@ -719,14 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/item.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -779,14 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/basket.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/stores_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -799,6 +746,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/item.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/basket.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20161127015617_add_store_to_items.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="51" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20161127021557_add_items_to_baskets.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20161127020622_create_baskets.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
           <folding />
         </state>
       </provider>
