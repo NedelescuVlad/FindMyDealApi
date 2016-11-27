@@ -3,35 +3,34 @@ class StoresController < ApplicationController
   def create
     @store = Store.new(store_params)
 
-    respond_to do |format|
+    if @store.save
 
-      if @store.save
+      render status: :created
 
-        format.json { render status: :created }
+    else
 
-      else
-
-        format.json { render status: :unprocessable_entity }
-
-      end
+      render status: :unprocessable_entity
     end
   end
 
   def show
     @store = Store.find(params[:id])
 
-    respond_to do |format|
+    if !@store.blank?
 
-      if !@store.blank?
+      store_items = @store.items
+      render status: :ok, :json => store_items
 
-        store_items = @store.items
-        format.json { render status: :ok, location: store_items }
+    else
 
-      else
+      render status: :not_found
 
-        format.json {render status: :not_found}
-
-      end
     end
   end
+
+
+  def store_params
+    params.require(:name).permit(:mail, :encrypted_password)
+  end
+
 end

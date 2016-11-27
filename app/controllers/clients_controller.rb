@@ -3,34 +3,27 @@ class ClientsController < ApplicationController
   def create
     @client = Client.new(client_params)
 
-    respond_to do |format|
+    if @client.save
 
-      if @client.save
+      render status: :created
 
-        format.json { render status: :created }
+    else
 
-      else
+      render status: :unprocessable_entity
 
-        format.json { render status: :unprocessable_entity }
-
-      end
     end
   end
 
   def show
     @client = Client.find(params[:id])
 
-    respond_to do |format|
+    if !@client.blank?
 
-      if !@client.blank?
+      render status: :ok
+    else
 
-        format.json { render status: :ok, location: :@client }
+      render status: :not_found
 
-      else
-
-        format.json { render status: :not_found }
-
-      end
     end
   end
 

@@ -7,11 +7,11 @@ class BasketsController < ApplicationController
 
       if @basket.save
 
-        format.json { render status: :created }
+        render status: :created
 
       else
 
-        format.json { render status: :unprocessable_entity }
+        render status: :unprocessable_entity
 
       end
     end
@@ -20,18 +20,15 @@ class BasketsController < ApplicationController
   def show
     @basket = Basket.find(params[:id])
 
-    respond_to do |format|
-
       if !@basket.blank? && @basket.valid
 
         basket_items = @basket.items
-        format.json { render status: :ok, location: basket_items }
+        render status: :ok, :json => basket_items
 
       else
 
-        format.json {render status: :not_found}
+        render status: :not_found
 
-      end
     end
   end
 
