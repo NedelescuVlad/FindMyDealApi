@@ -13,10 +13,9 @@
 ActiveRecord::Schema.define(version: 20161127021557) do
 
   create_table "baskets", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
-    t.integer  "client_id"
+    t.integer  "code"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["client_id"], name: "index_baskets_on_client_id", using: :btree
   end
 
   create_table "clients", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|

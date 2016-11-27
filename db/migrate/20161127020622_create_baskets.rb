@@ -1,7 +1,7 @@
 class CreateBaskets < ActiveRecord::Migration[5.0]
   def change
     create_table :baskets do |t|
-      t.references :client
+      t.integer :code
 
       t.timestamps
     end
