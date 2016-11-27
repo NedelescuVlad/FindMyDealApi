@@ -18,7 +18,7 @@ class BasketsController < ApplicationController
   end
 
   def show
-    @basket = Basket.find(params[:id])
+    @basket = Basket.find_by_code(params[:code])
 
       if !@basket.blank?
 
@@ -33,6 +33,6 @@ class BasketsController < ApplicationController
   end
 
   def basket_params
-    params.require(:code).permit(:id)
+    params.require(:code).permit(:code)
   end
 end

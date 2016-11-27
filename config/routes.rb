@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   resources :clients, :only => [:create, :show]
 
-  resources :baskets, :only => [:create, :show] do
+  resources :baskets, :only => [:create, :show], param: :code do
     resources :items, :only => [:index, :create, :show]
   end
 
