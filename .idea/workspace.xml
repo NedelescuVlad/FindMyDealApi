@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5713732-c628-4539-935e-d52650e2838f" name="Default" comment="" />
+    <list default="true" id="f5713732-c628-4539-935e-d52650e2838f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+    </list>
     <ignored path="FindMyDealApi.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -24,8 +27,8 @@
       <file leaf-file-name="schema.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="353">
+              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -51,21 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20161127015617_add_store_to_items.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="20161127015617_add_store_to_items.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20161127015617_add_store_to_items.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clients_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/clients_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="70">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -96,6 +89,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="14">
               <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -133,7 +136,6 @@
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20161126220451_create_items.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/models/client.rb" />
         <option value="$PROJECT_DIR$/app/controllers/clients_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/items_controller.rb" />
@@ -144,6 +146,8 @@
         <option value="$PROJECT_DIR$/db/migrate/20161127014944_add_quantity_to_item.rb" />
         <option value="$PROJECT_DIR$/app/models/store.rb" />
         <option value="$PROJECT_DIR$/app/models/item.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20161127015617_add_store_to_items.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
       </list>
     </option>
   </component>
@@ -274,7 +278,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="item&#9;FILE&#9;file:///home/vlad/RubymineProjects/FindMyDealApi/db/migrate/20161127014944_add_quantity_to_item.rb&#10;schema&#9;FILE&#9;file:///home/vlad/RubymineProjects/FindMyDealApi/db/schema.rb&#10;stock&#9;FILE&#9;file:///home/vlad/RubymineProjects/FindMyDealApi/app/models/stockline.rb&#10;routes&#9;FILE&#9;file:///home/vlad/RubymineProjects/FindMyDealApi/config/routes.rb&#10;sc&#9;FILE&#9;file:///home/vlad/.gem/ruby/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/schema.rb&#10;model&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="routes&#9;FILE&#9;file:///home/vlad/RubymineProjects/FindMyDealApi/config/routes.rb&#10;item&#9;FILE&#9;file:///home/vlad/RubymineProjects/FindMyDealApi/db/migrate/20161127014944_add_quantity_to_item.rb&#10;schema&#9;FILE&#9;file:///home/vlad/RubymineProjects/FindMyDealApi/db/schema.rb&#10;stock&#9;FILE&#9;file:///home/vlad/RubymineProjects/FindMyDealApi/app/models/stockline.rb&#10;sc&#9;FILE&#9;file:///home/vlad/.gem/ruby/2.3.0/gems/activerecord-5.0.0.1/lib/active_record/schema.rb&#10;model&#9;null&#9;null" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Rails.Development: FindMyDealApi">
@@ -348,12 +352,12 @@
       <updated>1480197330994</updated>
       <workItem from="1480197332292" duration="8020000" />
       <workItem from="1480206951423" duration="1620000" />
-      <workItem from="1480208665739" duration="2706000" />
+      <workItem from="1480208665739" duration="3243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12346000" />
+    <option name="totallyTimeSpent" value="12883000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="17" width="1366" height="751" extended-state="0" />
@@ -621,14 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/models/client_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
@@ -717,26 +713,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20161126225111_create_clients.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20161127015222_create_stores.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -765,6 +745,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20161127015222_create_stores.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20161127014944_add_quantity_to_item.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
@@ -775,8 +763,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20161127015617_add_store_to_items.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="70">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
           <folding />
         </state>
       </provider>
