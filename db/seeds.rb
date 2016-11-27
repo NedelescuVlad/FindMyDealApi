@@ -24,5 +24,6 @@ Client.delete_all
 Client.create! id: 1, email: "josh@mlh.io", encrypted_password: "leastbutnotlast"
 
 Basket.delete_all
-Basket.create! id: 1, code: 112233
-
+basket = Basket.create! id: 1, code: 112233
+basket.items << Item.find(1)
+basket.items << Item.find(2)

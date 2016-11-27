@@ -20,7 +20,7 @@ class BasketsController < ApplicationController
   def show
     @basket = Basket.find(params[:id])
 
-      if !@basket.blank? && @basket.valid
+      if !@basket.blank?
 
         basket_items = @basket.items
         render status: :ok, :json => basket_items
@@ -33,6 +33,6 @@ class BasketsController < ApplicationController
   end
 
   def basket_params
-    params.require(:code)
+    params.require(:code).permit(:id)
   end
 end
