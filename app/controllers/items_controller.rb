@@ -1,6 +1,6 @@
 class ItemsController < ApplicationController
 
   def show
-    render :json => Item.find(params[:id]).to_json
+    render :json => Item.find(params[:id])
   end
 end
